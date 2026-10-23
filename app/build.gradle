@@ -1,0 +1,6 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'com.guitracker.app'
+ compileSdk 36
+ defaultConfig { applicationId 'com.guitracker.app'; minSdk 26; targetSdk 36; versionCode 4; versionName '1.3' }
+}
